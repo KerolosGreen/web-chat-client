@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.826);
+}
+.App{
+  height: 100vh;
+  background-image: url('https://i.pinimg.com/564x/d2/a7/76/d2a77609f5d97b9081b117c8f699bd37.jpg');
+}
+.messages{
+  width: 80%;
+  height: 70%;
+  padding: 5px;
+  display: block;
+  margin: 0px auto;
+  border-radius: 10px;
+  overflow-y: auto;
+  /* backdrop-filter: blur(2px); */
+}
+.message{
+  width: 90%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(6px);
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.367);
+}
+.chat_input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 10px auto;
+}
+.chat_input input{
+  width: 70%;
+  height: 30px;
+  margin: 5px;
+  text-align: center;
+}
+.chat_input button{
+  width: 20%;
+  height: 30px;
+}
+#you{
+  background-color: rgba(0, 212, 0, 0.276);
+  width: 50%;
+  margin-left: auto;
+  font-size: 16px;
+}
+#other{
+  background-color: rgba(0, 158, 198, 0.35);
+  margin-right: auto;
+  width: 50%;
+  font-size: 18px;
+}
